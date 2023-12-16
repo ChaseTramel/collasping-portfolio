@@ -5,7 +5,7 @@ function Header() {
     const [open, setOpen] = useState(false);
 
     const navItems = [
-        <a href="#my-heading">ABOUT</a>, 
+        <a className="navTitles" href="#about">ABOUT</a>, 
         "PROJECTS", 
         "CONTACT"
     ];
@@ -21,7 +21,7 @@ function Header() {
                 <div className="mainRect">
                     <nav>
                         {open && navItems.map((item, index) => (
-                            <p className="navTitles" key={index}>{item}</p>
+                            <p  key={index}>{item}</p>
                         ))}
                     </nav>
                 </div>
