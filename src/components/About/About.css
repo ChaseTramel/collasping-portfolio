@@ -1,0 +1,23 @@
+h2 {
+	color: #000;
+	font-family: Fira Sans;
+	font-size: 22px;
+	font-style: italic;
+	font-weight: 600;
+	line-height: normal;
+	letter-spacing: 0.8px;
+	margin: 5px;
+    position: relative;
+	left: 15px;
+}
+
+.email {
+    color: #DF8E1D;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+
