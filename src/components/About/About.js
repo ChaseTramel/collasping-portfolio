@@ -5,8 +5,8 @@ function About() {
     const [open, setOpen] = useState(false);
 
     const longAbout = [
-        "I enjoy creating cool stuff that looks great and works even better, and I love web development because I can work with great teams to build products that truly impact people’s lives. ",
-        "My life experience has developed me into a tech generalist with strong programming and design skills. I love discovering new and creative ways to address issues with technology. ",
+        "I enjoy creating cool stuff that looks great and works even better. I'm passionate about web development because I can work with great teams to build products that truly impact people’s lives. ",
+        "My life experience has developed me into a tech generalist with strong programming and design skills. I love discovering new and creative ways to solve with technology. ",
         "I'm on the lookout for new opportunities to collaborate and grow, especially if they involve refining my React and UI design skills. I live in Central Florida, and I’m only able to accept jobs that are fully remote or based in the Orlando area. ",
         <>If you're interested in collaborating with me on a project, feel free to shoot me an email at <a className="email" href="mailto:hello@chasetramel.com">hello@chasetramel.com</a>.</>
     ]
@@ -30,7 +30,7 @@ function About() {
                     </div>
                 </div>
                 <div className="tab" onClick={onTabClick}>
-                    <img className={open ? "flipped" : ""} src="/arrow.svg" width="16" height="16"  />
+                    <img className={open ? "flipped" : ""} src="/arrow.svg" />
                 </div>
            </div>
         </div>
